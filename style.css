@@ -53,7 +53,13 @@ nav {
 
 .a-li {
   text-decoration: none;
-  color: white;
+  color: black;
+}
+.li-navbar:hover {
+  color: black;
+  background-color: white;
+  transition: 0.5s ease-in-out;
+  border-radius: 15px;
 }
 .content {
   background-color: #f7f7f7;
@@ -76,7 +82,6 @@ nav {
   color: black;
   cursor: pointer;
   box-shadow: 10px 10px 5px 0px rgb(0 0 0 / 75%);
-  transition: width 2s, height 4s;
 }
 .a-content:hover {
   background: radial-gradient(
@@ -87,6 +92,8 @@ nav {
     #d6249f 60%,
     #285aeb 90%
   );
+  transition: 1s ease-in-out;
+  border-radius: 20px;
 }
 img {
   width: 80%;
